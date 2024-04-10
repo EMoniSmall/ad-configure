@@ -22,4 +22,18 @@ During this tutorial, you will:
 <h2>Setting the Domain Controller's IP to Static 🏗</h2>
 
 Step 1: Return to Virtual Machines in Azure and click into your Domain Controller. *(DC1 in this tutorial)*
-Step 2: Scroll down for "Networking," locate the "Network Interface" and click open it.
+
+Step 2: Scroll down for "Networking," locate the "Network Interface" and open it.
+
+Step 3: Scroll down til you find ipconfig1 and open. 
+
+Step 4: Set the Allocation to Static and save.
+
+![Dynamic to Static](https://github.com/EMoniSmall/ad-configure/assets/166156618/ddb3a248-fb02-4cbe-8323-a6040dbd5e3a)
+
+> [!Note]
+> What does setting it to Static do?
+> Static IP addresses are often used for servers, network printers, routers, and other devices that need a consistent address for accessibility and management purposes. This makes it easier to track client devices, the server does not need to assign an IP address each time for every log in, and it makes the server easier to secure. 
+
+<h2>Testing Connectivity between DC-1 and Client-1</h2>
+
