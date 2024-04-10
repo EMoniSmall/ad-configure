@@ -5,9 +5,18 @@ An Active Directory is a Microsoft directory service for managing and organizing
 <h2>Expectaions 🤔</h2>
 During this tutorial, you will:
 
-- Set-Up Active Directory Server inside of an Azure VM
-- Connect Client VM to the Server
+- Create a Virtual Network and Subnet
+
+- Set-Up a domain controller inside of an Azure VM
+  
+- Change the NIC's Private IP address to Static
+  
+- Connect a Client VM to the Server
+  
 
 > [!Important]
-> You need to create **two** Azure Virtual Machines to continue with this tutorial. For a step-by-step guide to creating an Azure VM, please refer to [Azure Crash Course](https://github.com/EMoniSmall/azurecrashcourse). Specifically, [Virtual Machines](https://github.com/EMoniSmall/azurecrashcourse/edit/main/README.md#virtual-machines--).*
+> You need to create **two** Azure Virtual Machines to continue with this tutorial. For a step-by-step guide to creating an Azure VM, please refer to [Azure Crash Course](https://github.com/EMoniSmall/azurecrashcourse). Specifically, [Virtual Machines](https://github.com/EMoniSmall/azurecrashcourse/edit/main/README.md#virtual-machines--). When creating the domain controller, under the "Image" drop-down menu, select **Windows Server 2022 Datacenter: Azure Edition - x62 Gen 2**. The client VM will still use Windows 10 pro. 
+> 
+> ![Selecting Server](https://github.com/EMoniSmall/ad-configure/assets/166156618/196f799f-4488-4231-951e-bc8b8b3b9a24)
+
 
