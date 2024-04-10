@@ -19,4 +19,7 @@ During this tutorial, you will:
 > 
 > ![Selecting Server](https://github.com/EMoniSmall/ad-configure/assets/166156618/196f799f-4488-4231-951e-bc8b8b3b9a24)
 
+<h2>Setting the Domain Controller's IP to Static 🏗</h2>
 
+Step 1: Return to Virtual Machines in Azure and click into your Domain Controller. *(DC1 in this tutorial)*
+Step 2: Scroll down for "Networking," locate the "Network Interface" and click open it.
