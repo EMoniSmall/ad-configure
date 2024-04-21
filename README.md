@@ -1,4 +1,4 @@
-# Configuring an Active Directory within an Azure VM ⚙
+# Active Directory Configuration within Azure VMs ⚙
 <h3>What is an Active Directory?</h3>
 An Active Directory is a Microsoft directory service for managing and organizing network resources such as computers and users in Windows domain networks. It focuses on authentications, authorization, and configuration management to make network administration efficient and secure. Large institutions such as universities or businesses use Active Directory in some shape or form. When you log into a work computer or a school, your login information is authenticated and recognized as part of the system. 
 
