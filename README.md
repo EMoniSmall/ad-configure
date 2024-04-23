@@ -12,6 +12,14 @@ During this tutorial, you will:
 - Change the NIC's Private IP address to Static
   
 - Connect a Client VM to the Server
+
+- Create an Admin and Normal User Account in AD
+
+- Join Client-1 to your domain
+
+- Set-up Remote Desktop for Non-Admin Users on Client-1
+
+- Create additional users and attempt to log in with one.
   
 
 > [!Important]
@@ -37,3 +45,8 @@ Step 4: Set the Allocation to Static and save.
 
 <h2>Testing Connectivity between DC-1 and Client-1</h2>
 
+Step 1: First you'll connect to Client-1 via Remote Desktop.
+
+Step 2: Test the connectivity from within Client-1 to DC-1 by using Powershell to perpetual ping DC-1. (ping -1 <ip address)
+
+Step 3: Log into the Domain Controller and enable ICMPv4 on the local Windows firewall.
