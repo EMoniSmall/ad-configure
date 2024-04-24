@@ -41,7 +41,7 @@ Step 4: Set the Allocation to Static and save.
 
 > [!Note]
 > What does setting it to Static do?
-> Static IP addresses are often used for servers, network printers, routers, and other devices that need a consistent address for accessibility and management purposes. This makes it easier to track client devices, the server does not need to assign an IP address each time for every log in, and it makes the server easier to secure. 
+> Static IP addresses are often used for servers, network printers, routers, and other devices that need a consistent address for accessibility and management purposes. This makes it easier to track client devices, the server does not need to assign an IP address each time for every login, and it makes the server easier to secure. 
 
 <h2>Testing Connectivity between DC-1 and Client-1</h2>
 
@@ -101,8 +101,27 @@ Step 4: Right-click inside the new ADMINS OU and Create a new User. In this exam
 
 ![mstsc_HAA3Pi6qfA](https://github.com/EMoniSmall/ad-configure/assets/166156618/79817c2b-03e1-457b-9e95-8c0e3d5216cb)
 
-Step 5: Once your user account has been created, Right Click and enter Properties > Member Of tab > Add...
+Step 5: Once your user account has been created, Right-click and enter Properties > Member Of tab > Add...
 
-Step 6: Type Domain and hit Check Names. Select Domain Admins and hit Ok and apply. This will turn this User account into an Admin account.
+Step 6: Type Domain and hit Check Names. Select Domain Admins, hit OK, and apply. This will turn this User account into an Admin account.
 
 ![mstsc_9myTVZLPrV](https://github.com/EMoniSmall/ad-configure/assets/166156618/06cd9e17-6888-4a13-ba1b-d4e6a1608d8d)
+
+<h2>Joining Client-1 to the Domain</h2>
+
+Step 1: Through Azure, first retrieve the private IP Address of DC-1. 
+
+Step 2: Enter Client-1's Network Settings > DNS Servers and select Custom. Add DC-1's Private IP Address as the new DNS Server. Restart Client-1 once the new DNS has finished saving. 
+
+![chrome_ZleUZdMlMe](https://github.com/EMoniSmall/ad-configure/assets/166156618/393c053c-1ade-426d-a91f-5449af6475da)
+
+![Screenshot 2024-04-24 123320](https://github.com/EMoniSmall/ad-configure/assets/166156618/d67cbf2a-f4ac-4c75-909b-846d0681fe91)
+
+Step 3: Log into Client-1 via Remote Desktop and Right-click the start menu to open Settings > About > Rename this PC (Advanced).
+
+Step 4: Click Change... and under Member Of, select domain and enter your domain address. Once Completed, Client-1 will automatically restart. 
+
+
+
+
+
