@@ -148,7 +148,7 @@ Step 1: Log into DC-1 as your Admin Account.
 
 Step 2: Open Powershell_ise as an Administrator.
 
-Step 3: File > New > and copy and paste the following script into the space.
+Step 3: File > New > and copy and paste [this script](PSISECode) into the space.
 
 
 
