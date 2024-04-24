@@ -128,7 +128,27 @@ Step 5: Create another OU for Clients and drag Client-1 into the new OU.
 
 <h2>Setting Up Remote Desktop for Normal Users on Client-1</h2>
 
+> [!Note]
+> Because Client-1 is now a part of the domain, you will now be able to use Client-1 to log into mydomain.com
+
 Step 1: Log into Client-1 as your Admin account. (John_Admins in this example)
+
+Step 2: Right-Click the start menu and enter Settings > Remote Desktop > Select users that can remotely access this PC > Add
+
+Step 3: Type in Domain Users > Check Names > OK > OK
+
+![mstsc_cBQlbpAVR1](https://github.com/EMoniSmall/ad-configure/assets/166156618/1d98c4db-aba9-46ee-b684-af9796dd471f)
+
+> [!Note]
+> You should now be able to see Domain Users under the User OU in Active Directory Users and Computers on DC-1 Remote Desktop. You can now log into Client-1 as a normal user account. Group Policies makes it easier to apply settings such as this to thousands of computers at once.
+
+<h2>Creating Addtional Users for the Domain</h2>
+
+Step 1: Log into DC-1 as your Admin Account.
+
+Step 2: Open Powershell_ise as an Administrator.
+
+Step 3: File > New > and copy and paste the following script into the space.
 
 
 
