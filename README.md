@@ -95,6 +95,14 @@ Step 1: Log back into DC-1 using your domain name and Username. [mydomain.com\Az
 
 Step 2: In the top right corner of the Server Manager, open Tools and click on Active Directory Users and Computers. From here you'll create an Admins and Employee Organizational Unit.
 
-Step 3: Right-click mydomain.com > New > Organizational Unit and create an Admins OU and an Employees OU.
+Step 3: Right-click mydomain.com > New > Organizational Unit and create an Admins OU and an Employees OU. 
+
+Step 4: Right-click inside the new ADMINS OU and Create a new User. In this example, the user will be John Doe. Enter any credentials you wish.
 
 ![mstsc_HAA3Pi6qfA](https://github.com/EMoniSmall/ad-configure/assets/166156618/79817c2b-03e1-457b-9e95-8c0e3d5216cb)
+
+Step 5: Once your user account has been created, Right Click and enter Properties > Member Of tab > Add...
+
+Step 6: Type Domain and hit Check Names. Select Domain Admins and hit Ok and apply. This will turn this User account into an Admin account.
+
+![mstsc_9myTVZLPrV](https://github.com/EMoniSmall/ad-configure/assets/166156618/06cd9e17-6888-4a13-ba1b-d4e6a1608d8d)
