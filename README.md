@@ -56,7 +56,9 @@ Step 2: Test the connectivity from within Client-1 to DC-1 by using Powershell t
 You'll notice that the requests are timing out. This can be due to DC-1's Firewall blocking ICMP traffic
 
 Step 3: Log into the Domain Controller via Remote Desktop.
+
 Step 4: Open Windows Defender Firewall with Advanced Security and go to inbound rules.
+
 Step 5: You can sort the Protocol to ICMP and search for [Core Networking Diagnostics - ICMP Echo Requests.] You can right click and enable both.
 
 ![mstsc_I138tEntyk](https://github.com/EMoniSmall/ad-configure/assets/166156618/71f01098-58de-49f9-a88b-b6dca8c3c28e)
@@ -66,6 +68,7 @@ Step 6: Return to Client-1 Remote Desktop and check powershell. There should be 
 <h2>Installing Active Directory</h2>
 
 Step 1: Inside DC-1, your [Server Manager] should be open, if not, you can go to the start menu and search for it.
+
 Step 2: Select Add Roles and Features. Click next til you reach Server Roles. Check Active Directory Domain Services and continue to install. It may take a moment to install. 
 
 ![mstsc_s7Trmt4zrY](https://github.com/EMoniSmall/ad-configure/assets/166156618/fff62480-8ccd-40f4-9a5c-3fda0fb5bf92)
