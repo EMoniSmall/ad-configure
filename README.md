@@ -81,3 +81,8 @@ Click then click "Promote this server to a domain controller."
 
 ![image](https://github.com/EMoniSmall/ad-configure/assets/166156618/768f398c-b6a6-4801-8c01-4494c3955d6b)
 
+Step 4: Check Add a New Forest and Add a Root Domain Name. Enter a Password on the next screen. 
+
+Step 5: Continue to hit Next til you reach to the point of Installation and hit Install. 
+
+![mstsc_S1l19JObIb](https://github.com/EMoniSmall/ad-configure/assets/166156618/e625ffad-ff66-4843-872a-bb02442ab55c)
