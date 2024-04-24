@@ -83,6 +83,18 @@ Click then click "Promote this server to a domain controller."
 
 Step 4: Check Add a New Forest and Add a Root Domain Name. Enter a Password on the next screen. 
 
-Step 5: Continue to hit Next til you reach to the point of Installation and hit Install. 
+Step 5: Continue to hit Next until you reach the point of Installation and hit Install. 
 
 ![mstsc_S1l19JObIb](https://github.com/EMoniSmall/ad-configure/assets/166156618/e625ffad-ff66-4843-872a-bb02442ab55c)
+
+The DC-1 will automatically restart once the installation is finished. 
+
+<h2>Creating Admin and Normal User Accounts in AD</h2>
+
+Step 1: Log back into DC-1 using your domain name and Username. [mydomain.com\AzureUser]
+
+Step 2: In the top right corner of the Server Manager, open Tools and click on Active Directory Users and Computers. From here you'll create an Admins and Employee Organizational Unit.
+
+Step 3: Right-click mydomain.com > New > Organizational Unit and create an Admins OU and an Employees OU.
+
+![mstsc_HAA3Pi6qfA](https://github.com/EMoniSmall/ad-configure/assets/166156618/79817c2b-03e1-457b-9e95-8c0e3d5216cb)
