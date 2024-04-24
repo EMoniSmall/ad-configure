@@ -72,3 +72,12 @@ Step 1: Inside DC-1, your [Server Manager] should be open, if not, you can go to
 Step 2: Select Add Roles and Features. Click next til you reach Server Roles. Check Active Directory Domain Services and continue to install. It may take a moment to install. 
 
 ![mstsc_s7Trmt4zrY](https://github.com/EMoniSmall/ad-configure/assets/166156618/fff62480-8ccd-40f4-9a5c-3fda0fb5bf92)
+
+Step 3: After AD is finished installing, you'll notice a flag in the top right corner of the Server Manager. 
+
+![image](https://github.com/EMoniSmall/ad-configure/assets/166156618/a8e8378d-015b-41d1-9c8d-b4a9f36faf36)
+
+Click then click "Promote this server to a domain controller."
+
+![image](https://github.com/EMoniSmall/ad-configure/assets/166156618/768f398c-b6a6-4801-8c01-4494c3955d6b)
+
