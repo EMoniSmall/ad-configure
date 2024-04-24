@@ -120,7 +120,15 @@ Step 2: Enter Client-1's Network Settings > DNS Servers and select Custom. Add D
 Step 3: Log into Client-1 via Remote Desktop and Right-click the start menu to open Settings > About > Rename this PC (Advanced).
 
 Step 4: Click Change... and under Member Of, select domain and enter your domain address. Once Completed, Client-1 will automatically restart. 
+You can verify that Client-1 has joined the domain but checking inside DC-1's Remote Desktop connection > Active Directory Users and Computers > Computer container on the root of the domain. 
 
+Step 5: Create another OU for Clients and drag Client-1 into the new OU.
+
+![mstsc_va87dP7INV](https://github.com/EMoniSmall/ad-configure/assets/166156618/f8405d8b-d39a-4f05-873d-656cbc03bd83)
+
+<h2>Setting Up Remote Desktop for Normal Users on Client-1</h2>
+
+Step 1: Log into Client-1 as your Admin account. (John_Admins in this example)
 
 
 
