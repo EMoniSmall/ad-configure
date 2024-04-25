@@ -151,7 +151,7 @@ Step 2: Open Powershell_ise as an Administrator.
 Step 3: File > New > and copy and paste [this script](https://github.com/EMoniSmall/PSCreation/blob/main/PSISECode) into the space.
 
 > [!Note]
-> The script can be changed according to your needs but it is fine as default. It may take some type to generate all the users but you can attempt to log into one while it is generating. You can open Active Directory Users and Computers, pick a randomly generated User, and use the Username and Password to log into Client-1. 
+> The script can be changed according to your needs but it is fine as default. It may take some time to generate all the users but you can attempt to log into one while it is generating. You can open Active Directory Users and Computers, pick a randomly generated User, and use the Username and Password to log into Client-1. 
 
 
 
