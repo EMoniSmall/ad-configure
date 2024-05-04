@@ -153,6 +153,6 @@ Step 3: File > New > and copy and paste [this script](https://github.com/EMoniSm
 > [!Note]
 > The script can be changed according to your needs but it is fine as default. It may take some time to generate all the users but you can attempt to log into one while it is generating. You can open Active Directory Users and Computers, pick a randomly generated User, and use the Username and Password to log into Client-1. 
 
-
+<h2>This concludes my guide for installing Active Directory using Microsoft Azure.</h2>
 
 
