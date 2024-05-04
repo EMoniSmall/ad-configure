@@ -65,7 +65,7 @@ Step 5: You can sort the Protocol to ICMP and search for [Core Networking Diagno
 
 Step 6: Return to Client-1 Remote Desktop and check powershell. There should be replies from DC-1
 
-<h2>Installing Active Directory</h2>
+<h2>Installing Active Directory 🎯</h2>
 
 Step 1: Inside DC-1, your [Server Manager] should be open, if not, you can go to the start menu and search for it.
 
@@ -89,7 +89,7 @@ Step 5: Continue to hit Next until you reach the point of Installation and hit I
 
 The DC-1 will automatically restart once the installation is finished. 
 
-<h2>Creating Admin and Normal User Accounts in AD</h2>
+<h2>Creating Admin and Normal User Accounts in AD 👩🏻‍💻</h2>
 
 Step 1: Log back into DC-1 using your domain name and Username. [mydomain.com\AzureUser]
 
@@ -107,7 +107,7 @@ Step 6: Type Domain and hit Check Names. Select Domain Admins, hit OK, and apply
 
 ![mstsc_9myTVZLPrV](https://github.com/EMoniSmall/ad-configure/assets/166156618/06cd9e17-6888-4a13-ba1b-d4e6a1608d8d)
 
-<h2>Joining Client-1 to the Domain</h2>
+<h2>Joining Client-1 to the Domain 🔗</h2>
 
 Step 1: Through Azure, first retrieve the private IP Address of DC-1. 
 
@@ -126,7 +126,7 @@ Step 5: Create another OU for Clients and drag Client-1 into the new OU.
 
 ![mstsc_va87dP7INV](https://github.com/EMoniSmall/ad-configure/assets/166156618/f8405d8b-d39a-4f05-873d-656cbc03bd83)
 
-<h2>Setting Up Remote Desktop for Normal Users on Client-1</h2>
+<h2>Setting Up Remote Desktop for Normal Users on Client-1 📐</h2>
 
 > [!Note]
 > Because Client-1 is now a part of the domain, you will now be able to use Client-1 to log into mydomain.com
@@ -142,7 +142,7 @@ Step 3: Type in Domain Users > Check Names > OK > OK
 > [!Note]
 > You should now be able to see Domain Users under the User OU in Active Directory Users and Computers on DC-1 Remote Desktop. You can now log into Client-1 as a normal user account. Group Policies makes it easier to apply settings such as this to thousands of computers at once.
 
-<h2>Creating Addtional Users for the Domain</h2>
+<h2>Creating Addtional Users for the Domain 🖋</h2>
 
 Step 1: Log into DC-1 as your Admin Account.
 
