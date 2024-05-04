@@ -23,7 +23,7 @@ During this tutorial, you will:
   
 
 > [!Important]
-> You need to create **two** Azure Virtual Machines to continue with this tutorial. For a step-by-step guide to creating an Azure VM, please refer to [Azure Crash Course: Virtual Machines](https://github.com/EMoniSmall/azurecrashcourse/edit/main/README.md#virtual-machines--). When creating the domain controller, under the "Image" drop-down menu, select **Windows Server 2022 Datacenter: Azure Edition - x62 Gen 2**. The client VM will still use Windows 10 pro. *Keep in mind that an Azure free subscription will only allow the use of up to 4 vcpus when selecting Size.* **Both Virtual Machines must be created in the same Resource Group.**
+> You need to create **two** Azure Virtual Machines to continue with this tutorial. For a step-by-step guide to creating an Azure VM, please refer to [Azure Crash Course: Virtual Machines](https://github.com/EMoniSmall/azurecrashcourse/edit/main/README.md#virtual-machines--). When creating the domain controller, under the "Image" drop-down menu, select **Windows Server 2022 Datacenter: Azure Edition - x62 Gen 2**. The client VM will still use Windows 10 pro. *Keep in mind that an Azure free subscription will only allow the use of up to 4 vcpus when selecting Size.* **Both Virtual Machines must be created in the same Resource Group and must be on the same Virtual Network.**
 > 
 > ![Selecting Server](https://github.com/EMoniSmall/ad-configure/assets/166156618/196f799f-4488-4231-951e-bc8b8b3b9a24)
 
